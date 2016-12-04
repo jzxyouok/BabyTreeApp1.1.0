@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>AppServer</display-name>
+  <servlet>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.appserver.servlet.member.LoginServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>RegisterServlet</servlet-name>
+    <servlet-class>com.appserver.servlet.member.RegisterServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllNewsServlet</servlet-name>
+    <servlet-class>com.appserver.servlet.news.GetAllNewsServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllGroupClassifyServlet</servlet-name>
+    <servlet-class>com.appserver.servlet.group.GetAllGroupClassifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetGroupPostByIdServlet</servlet-name>
+    <servlet-class>com.appserver.servlet.group.GetGroupPostByIdServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetAllPeriod</servlet-name>
+    <servlet-class>com.appserver.servlet.knowledge.GetAllPeriod</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetProduceServlet</servlet-name>
+    <servlet-class>com.appserver.servlet.produce.GetProduceServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetKLClassifyServlet</servlet-name>
+    <servlet-class>com.appserver.servlet.knowledge.GetKLClassifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetPostCommentServlet</servlet-name>
+    <servlet-class>com.appserver.servlet.group.GetPostCommentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetVideoClassifyServlet</servlet-name>
+    <servlet-class>com.appserver.servlet.video.GetVideoClassifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SaveRServlet</servlet-name>
+    <servlet-class>com.appserver.servlet.retroaction.SaveRServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetKnowledgeServlet</servlet-name>
+    <servlet-class>com.appserver.servlet.knowledge.GetKnowledgeServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>CommentServlet</servlet-name>
+    <servlet-class>com.appserver.servlet.group.CommentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetVideoServlet</servlet-name>
+    <servlet-class>com.appserver.servlet.video.GetVideoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SendPostServlet</servlet-name>
+    <servlet-class>com.appserver.servlet.group.SendPostServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetGLInfoServlet</servlet-name>
+    <servlet-class>com.appserver.servlet.growthladder.GetGLInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>SendMarkServlet</servlet-name>
+    <servlet-class>com.appserver.servlet.growthladder.SendMarkServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterServlet</servlet-name>
+    <url-pattern>/RegisterServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllNewsServlet</servlet-name>
+    <url-pattern>/GetAllNewsServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllGroupClassifyServlet</servlet-name>
+    <url-pattern>/GetAllGroupClassifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetGroupPostByIdServlet</servlet-name>
+    <url-pattern>/GetGroupPostByIdServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetAllPeriod</servlet-name>
+    <url-pattern>/GetAllPeriod</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetProduceServlet</servlet-name>
+    <url-pattern>/GetProduceServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetKLClassifyServlet</servlet-name>
+    <url-pattern>/GetKLClassifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPostCommentServlet</servlet-name>
+    <url-pattern>/GetPostCommentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetVideoClassifyServlet</servlet-name>
+    <url-pattern>/GetVideoClassifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveRServlet</servlet-name>
+    <url-pattern>/SaveRServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetKnowledgeServlet</servlet-name>
+    <url-pattern>/GetKnowledgeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentServlet</servlet-name>
+    <url-pattern>/CommentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetVideoServlet</servlet-name>
+    <url-pattern>/GetVideoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendPostServlet</servlet-name>
+    <url-pattern>/SendPostServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetGLInfoServlet</servlet-name>
+    <url-pattern>/GetGLInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SendMarkServlet</servlet-name>
+    <url-pattern>/SendMarkServlet</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
